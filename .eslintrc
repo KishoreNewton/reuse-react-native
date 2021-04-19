@@ -1,0 +1,31 @@
+{
+  "extends": "@react-native-community",
+  "rules": {
+    "quotes": [
+      2,
+      "single",
+      {
+        "avoidEscape": true
+      }
+    ],
+    "comma-dangle": [
+      "warn",
+      "never"
+    ],
+    "sort-imports": [
+      "warn",
+      {
+        "ignoreCase": false,
+        "ignoreDeclarationSort": false,
+        "ignoreMemberSort": false,
+        "memberSyntaxSortOrder": [
+          "all",
+          "multiple",
+          "single",
+          "none"
+        ],
+        "allowSeparatedGroups": false
+      }
+    ]
+  }
+}
